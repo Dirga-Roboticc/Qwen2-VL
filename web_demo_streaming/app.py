@@ -36,7 +36,7 @@ oss_reader = None
 
 MAX_SEQ_LEN = 32000
 
-DEFAULT_CKPT_PATH = 'Qwen/Qwen2-VL-7B-Instruct'
+DEFAULT_CKPT_PATH = 'Qwen/Qwen2-VL-2B-Instruct'
 
 def compute_seqlen_estimated(tokenizer, json_input, sample_strategy_func):
     total_seq_len, img_seq_len, text_seq_len = 0, 0, 0
